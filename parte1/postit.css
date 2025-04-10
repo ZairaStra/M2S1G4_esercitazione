@@ -32,32 +32,25 @@ p {
 
 .yellow {
   background-color: #f6f6c4;
-  transform: rotate(354deg);
+  transform: rotate(3deg);
   transform-origin: top left;
 }
 
 .green {
   background-color: #c5f5c8;
-  transform: rotate(3deg);
+  transform: rotate(-4deg);
   transform-origin: top right;
 }
 
 .violet {
   background-color: #c7c7f5;
-  transform: rotate(351deg);
+  transform: rotate(6deg);
   transform-origin: top left;
 }
-
-/* 
-body div:hover {
-  transition: width 500ms, height 500ms linear;
-  width: 25%;
-  height: 45%;
-  box-shadow: 10px 10px 15px #353535, inset 0px -55px 50px #babcbe75;
-}
- */
 
 body div:hover {
   transform: rotate(0);
   transition: all 50ms;
+  scale: 1.2;
+  box-shadow: 10px 10px 20px #353535;
 }
