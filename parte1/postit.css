@@ -1,5 +1,5 @@
 body {
-  height: 100vh;
+  height: 90vh;
   padding-block: 2rem;
   padding-inline: 3rem;
   font-family: "Indie Flower";
@@ -53,4 +53,5 @@ body div:hover {
   transition: all 50ms;
   scale: 1.2;
   box-shadow: 10px 10px 20px #353535;
+  z-index: 1;
 }
