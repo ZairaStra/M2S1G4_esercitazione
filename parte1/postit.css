@@ -12,10 +12,11 @@ body {
 }
 
 body div {
-  width: 23%;
+  width: 22%;
   height: 40%;
   align-content: center;
-  box-shadow: 7px 7px 10px #353535, inset 0px -55px 50px #cfd3d7;
+  box-shadow: 7px 7px 10px #353535, inset 0px -55px 50px #babcbe75;
+  transition: all;
 }
 
 h2 {
@@ -31,12 +32,32 @@ p {
 
 .yellow {
   background-color: #f6f6c4;
+  transform: rotate(354deg);
+  transform-origin: top left;
 }
 
 .green {
   background-color: #c5f5c8;
+  transform: rotate(3deg);
+  transform-origin: top right;
 }
 
 .violet {
   background-color: #c7c7f5;
+  transform: rotate(351deg);
+  transform-origin: top left;
+}
+
+/* 
+body div:hover {
+  transition: width 500ms, height 500ms linear;
+  width: 25%;
+  height: 45%;
+  box-shadow: 10px 10px 15px #353535, inset 0px -55px 50px #babcbe75;
+}
+ */
+
+body div:hover {
+  transform: rotate(0);
+  transition: all 50ms;
 }
