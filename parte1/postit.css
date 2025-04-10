@@ -1,0 +1,42 @@
+body {
+  height: 100vh;
+  padding-block: 2rem;
+  padding-inline: 3rem;
+  font-family: "Indie Flower";
+  background-color: #666666;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+body div {
+  width: 23%;
+  height: 40%;
+  align-content: center;
+  box-shadow: 7px 7px 10px #353535, inset 0px -55px 50px #cfd3d7;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+}
+
+p {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.yellow {
+  background-color: #f6f6c4;
+}
+
+.green {
+  background-color: #c5f5c8;
+}
+
+.violet {
+  background-color: #c7c7f5;
+}
